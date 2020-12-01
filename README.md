@@ -32,7 +32,7 @@ This is a Responsive Portfolio Website developed using Html, CSS, JavaScript, Bo
 
 Run the following command in the terminal:
 
-	git clone 
+	git clone https://github.com/Nishkarsh01/RashmiRashmi-Portfolio-Project.git
 or download the zip file from github.
     
 
