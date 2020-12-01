@@ -1,6 +1,6 @@
 # RashmiRashmi-Portfolio-Project
 
-This is a Responsive Portfolio Website developed using Html, CSS, JavaScript, Bootstrap4, jQuery, Node.js, Express, MongoDB.It is a highly interactive website with an awesome dynamic photo/video gallery section. Feel free to copy, get ideas, no copyright issues. 
+This is a Responsive Portfolio Website developed using Html, CSS, JavaScript, Bootstrap4, jQuery, Node.js, Express, MongoDB. It is a highly interactive website with an awesome dynamic photo/video gallery section. Feel free to copy, get ideas, no copyright issues. 
 
 ## Author 
 > Nishkarsh01
