@@ -6,9 +6,9 @@ This is a Responsive Portfolio Website developed using Html, CSS, JavaScript, Bo
 > Nishkarsh01
 
 ## Screenshots 📷
-![Website Screenshot](screenshots/1.gif)
-![Website Screenshot](screenshots/2.gif)
-![Website Screenshot](screenshots/3.gif)
+![Website Screenshot](screenshots/1.png)
+![Website Screenshot](screenshots/2.png)
+![Website Screenshot](screenshots/3.png)
 
 ## Live Demo 
 
