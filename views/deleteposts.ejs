@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Nishkarsh Dubb">
+
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <title>Delete Posts</title>
+
+    <!-- Global stylesheets -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/devicons/css/devicons.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+       
+        <h2>Video Posts</h2>
+        
+        <ul class="list-group">
+            <% for(var i = 0; i < postsVideoArray.length; i++) { %>
+          <li class="list-group-item">Title: <%= postsVideoArray[i].title %> (<%= postsVideoArray[i].date %>)  <form class="row" action="/deleteVideopost" method="post"><input type="checkbox" value= <%= postsVideoArray[i].title %> onChange="this.form.submit()" name="checkbox"></form></li>
+       <% } %>
+        </ul>
+        <h2>Image Posts</h2>
+        <ul class="list-group">
+            <% for(var i = 0; i < postsArray.length; i++) { %>
+          <li class="list-group-item">Title: <%= postsArray[i].title %> (<%= postsArray[i].date %>)  <form class="row" action="/deleteImagepost" method="post"><input type="checkbox" value= <%= postsArray[i].title %> onChange="this.form.submit()" name="checkbox"> </form></li>
+       <% } %>
+        </ul>
+        
+  
+      
+        
+      </div>
+</body>
+</html>
