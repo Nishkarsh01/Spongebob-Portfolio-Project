@@ -7,8 +7,8 @@ This is a Responsive Portfolio Website developed using Html, CSS, JavaScript, Bo
 
 ## Screenshots 📷
 ![Website Screenshot](screenshots/1.png)
-![Website Screenshot](screenshots/2.png)
 ![Website Screenshot](screenshots/3.png)
+![Website Screenshot](screenshots/2.png)
 
 ## Live Demo 
 
