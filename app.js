@@ -23,12 +23,13 @@ app.use(
 );
 
 mongoose.connect(
-  'xxxxxxxx',
+  process.env.MONGODB_URI,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }
 );
+
 
 /**schema */
 const videopost = new mongoose.Schema({

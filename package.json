@@ -18,6 +18,7 @@
     "express": "^4.17.1",
     "mailgun": "^0.5.0",
     "mailgun-js": "^0.22.0",
+    "mongodb": "^6.10.0",
     "mongoose": "^5.10.15"
   }
 }
